@@ -53,12 +53,15 @@ img {
     padding-right: 15px;
 }
 
+.menu-link.current {
+    color: var(--logo-brand-color);
+}
+
 /* соцмережі */
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 
 /* соціальні мережі */
 .socials {
@@ -89,8 +92,6 @@ img {
 }
 
 .social-link-icon {
-    /* width: 20px;
-    height: 20px; */
     fill: currentColor;
 }
 
@@ -163,14 +164,14 @@ footer .social-link {
     align-items: center;
 }
 
-.contact-item {
-    display: flex;
-    align-items: center;
+.contact-item+.contact-item {
+    margin-left: 30px;
 }
 
-.contact-item + .contact-item { margin-left: 30px; }
-
 .contact-link {
+    display: flex;
+    align-items: center;
+
     padding-top: 22px;
     padding-bottom: 22px;
 
@@ -178,33 +179,21 @@ footer .social-link {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    /* color: var(--grey); */
-    color: inherit;
+    color: var(--grey);
 }
 
 .icon-top-contacts {
     margin-right: 10px;
-    /* fill="#757575" style="fill: var(--color5, #757575)"
-       fill="#757575" style="fill: var(--color5, #757575)" */
-    fill:#757575;
+    fill: currentColor;
 }
 
-.icon:hover,
-.icon:focus {
-    fill: var(--logo-brand-color);
-    cursor: pointer;
-}
-
-
-
-/* стилізація навігаційного меню при подіях */
 .menu-link:hover,
 .menu-link:focus,
 .contact-link:hover,
-.contact-link:focus,
-.current {
+.contact-link:focus {
     color: var(--logo-brand-color);
 }
+
 /* .menu-link-action:visited { color: var(--black); } */
 
 /* ============= /Верхній рядок ============= */

@@ -24,48 +24,53 @@
 
   <body>
     <!-- верхній рядок -->
-		<header class="head-border">
-			<div class="container head-nav">
-				<!-- Навігація-->
-				<nav class="nav">
-					<!-- логотип -->
-					<a href="./" class="link-decor logo">Web<span class="logo-positive">Studio</span></a>
-					<!-- Меню -->
-					<ul class="menu list-style">
-						<li class="menu-item">
-							<a href="./" class="link-decor menu-link">Студия</a>
-						</li>
-						<li class="menu-item">
-							<a href="./portfolio.html" class="link-decor menu-link current" >Портфолио</a>
-						</li>
-						<li class="menu-item">
-							<a href="./" class="link-decor menu-link" >Контакты</a>
-						</li>
-					</ul>
-				</nav>
-				<!-- Контакти  в хедері-->
-				<ul class="list-style contacts">
-					<li class="contact-item">
-						<svg class="icon-top-contacts" width="16" height="10">
-							<use href="./images/background/sprite.svg#email"></use>
-						</svg>
-						<a href="mailto:info@devstudio.com" class="link-decor contact-link">
-							info@devstudio.com
-						</a>
-					</li>
-					<li class="contact-item">
-						<!-- <div class="box-icon"> -->
-						<svg class="icon-top-contacts" width="10" height="16">
-							<use href="./images/background/sprite.svg#smartphone"></use>
-						</svg>
-						<a href="tel:+380961111111" class="link-decor contact-link">
-						+38 096 111 11 11
-						</a>
-						<!-- </div> -->
-					</li>
-				</ul>
-			</div>
-		</header>
+    <header class="head-border">
+      <div class="container head-nav">
+        <!-- Навігація-->
+        <nav class="nav">
+          <!-- логотип -->
+          <a href="./" class="link-decor logo"
+            >Web<span class="logo-positive">Studio</span></a
+          >
+          <!-- Меню -->
+          <ul class="menu list-style">
+            <li class="menu-item">
+              <a href="./" class="link-decor menu-link">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a href="./portfolio.html" class="link-decor menu-link current"
+                >Портфолио</a
+              >
+            </li>
+            <li class="menu-item">
+              <a href="./" class="link-decor menu-link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Контакти  в хедері-->
+        <ul class="list-style contacts">
+          <li class="contact-item">
+            <a href="mailto:info@devstudio.com" class="link-decor contact-link">
+              <svg class="icon-top-contacts" width="16" height="10">
+                <use href="./images/background/icons.svg#email"></use>
+              </svg>
+
+              info@devstudio.com
+            </a>
+          </li>
+
+          <li class="contact-item">
+            <a href="tel:+380961111111" class="link-decor contact-link">
+              <svg class="icon-top-contacts" width="10" height="16">
+                <use href="./images/background/icons.svg#smartphone"></use>
+              </svg>
+
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <main>
       <section class="section">
@@ -209,80 +214,98 @@
     </main>
 
     <!-- footer -->
-		<footer class="footer">
-			<div class="container">
-				<!-- група у дві колонки -->
-				<div class="footer-columns">
-					<div>
-						<a href="./" class="logo link-decor">Web<span class="logo-negative">Studio</span></a>
-						<!-- footer contacts -->
-						<address>
-							<ul class="list-style link-decor">
-								<li class="footer-contact-item">
-									<a href="https://goo.gl/maps/csTUW6vFvjiGMf6m9" class="footer-contact footer-address link-decor" target="_blank" rel="noreferrer noopener nofollow">г. Киев, пр-т Леси Украинки, 26</a>
-								</li>
-								<li class="footer-contact-item">
-									<a href="mailto:info@devstudio.com" class="footer-contact link-decor">info@devstudio.com</a>
-								</li>
-								<li class="footer-contact-item">
-									<a href="tel:+380961111111" class="footer-contact link-decor">+38 096 111 11 11</a>
-								</li>
-							</ul>
-						</address>
-					</div>
+    <footer class="footer">
+      <div class="container">
+        <!-- група у дві колонки -->
+        <div class="footer-columns">
+          <div>
+            <a href="./" class="logo link-decor"
+              >Web<span class="logo-negative">Studio</span></a
+            >
+            <!-- footer contacts -->
+            <address>
+              <ul class="list-style link-decor">
+                <li class="footer-contact-item">
+                  <a
+                    href="https://goo.gl/maps/csTUW6vFvjiGMf6m9"
+                    class="footer-contact footer-address link-decor"
+                    target="_blank"
+                    rel="noreferrer noopener nofollow"
+                    >г. Киев, пр-т Леси Украинки, 26</a
+                  >
+                </li>
+                <li class="footer-contact-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="footer-contact link-decor"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="footer-contact-item">
+                  <a href="tel:+380961111111" class="footer-contact link-decor"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
 
-					<!-- Соцмережі -->
-					<div class="footer-column-two">
-						<h3 class="footer-title">Присоединяйтесь</h3>
-						<ul class="list-style socials">
-							<li class="social-item">
-								<a 	class="link-decor social-link"
-									href="https://www.instagram.com/"
-									target="_blank" 
-									rel="noreferrer noopener nofollow"
-								>
-									<svg class="social-link-icon" width="20" height="20">
-										<use href="./images/background/sprite.svg#instagram"></use>
-									</svg>
-								</a>
-							</li>
-							<li class="social-item">
-								<a 	class="link-decor social-link"
-									href="https://twitter.com"
-									target="_blank" 
-									rel="noreferrer noopener nofollow"
-								>
-									<svg class="social-link-icon" width="20" height="20">
-										<use href="./images/background/sprite.svg#twitter"></use>
-									</svg>
-								</a>
-							</li>
-							<li class="social-item">
-								<a 	class="link-decor social-link"
-									href="https://www.facebook.com/"
-									target="_blank" 
-									rel="noreferrer noopener nofollow"
-								>
-									<svg class="social-link-icon" width="20" height="20">
-										<use href="./images/background/sprite.svg#facebook"></use>
-									</svg>
-								</a>
-							</li>
-							<li class="social-item">
-								<a 	class="link-decor social-link"
-									href="https://www.linkedin.com/"
-									target="_blank" 
-									rel="noreferrer noopener nofollow"
-								>
-									<svg class="social-link-icon" width="20" height="20">
-										<use href="./images/background/sprite.svg#linkedin"></use>
-									</svg>
-								</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
+          <!-- Соцмережі -->
+          <div class="footer-column-two">
+            <h3 class="footer-title">Присоединяйтесь</h3>
+            <ul class="list-style socials">
+              <li class="social-item">
+                <a
+                  class="link-decor social-link"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                >
+                  <svg class="social-link-icon" width="20" height="20">
+                    <use href="./images/background/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="link-decor social-link"
+                  href="https://twitter.com"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                >
+                  <svg class="social-link-icon" width="20" height="20">
+                    <use href="./images/background/icons.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="link-decor social-link"
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                >
+                  <svg class="social-link-icon" width="20" height="20">
+                    <use href="./images/background/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-item">
+                <a
+                  class="link-decor social-link"
+                  href="https://www.linkedin.com/"
+                  target="_blank"
+                  rel="noreferrer noopener nofollow"
+                >
+                  <svg class="social-link-icon" width="20" height="20">
+                    <use href="./images/background/icons.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
