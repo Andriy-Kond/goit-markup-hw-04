@@ -180,11 +180,7 @@ footer .social-link {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--grey);
-}
-
-.icon-top-contacts {
-    margin-right: 10px;
-    fill: currentColor;
+    /* color: inherit; */
 }
 
 .menu-link:hover,
@@ -194,7 +190,13 @@ footer .social-link {
     color: var(--logo-brand-color);
 }
 
-/* .menu-link-action:visited { color: var(--black); } */
+.icon-top-contacts {
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+
+
 
 /* ============= /Верхній рядок ============= */
 
