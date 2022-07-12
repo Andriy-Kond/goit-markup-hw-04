@@ -9,6 +9,7 @@
     --white: #fff;
     --background-brand-color: #2F303A;
     --background-btn-color: #F5F4FA;
+    --social-grey: #AFB1B8;
 }
 
 /* ============= Скидання стилів ============= */
@@ -81,7 +82,7 @@ img {
     width: 44px;
     border-radius: 50%;
 
-    color: var(--grey);
+    color: var(--social-grey);
     background-color: var(--white);
 }
 
@@ -235,9 +236,9 @@ footer .social-link {
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4) ),
         url("../images/background/hero-pic.jpg");
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-size: cover; */
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
     background-color: #C4C4C4;
 } 
 
@@ -429,6 +430,9 @@ footer .social-link {
 
 .customer-link-icon {
     fill: currentColor;
+    width: 106px;
+    height: 60px;
+
 }
 
 
@@ -473,7 +477,6 @@ footer .logo {
 }
 
 .footer-column-two {
-    margin-top: 12px;
     margin-left: 70px;
 }
 
@@ -487,8 +490,8 @@ footer .logo {
 
 }
 .footer-columns {
+    align-items: baseline;
     display: flex;
-
 }
 
 /* ============= /footer ============= */
@@ -540,9 +543,9 @@ footer .logo {
     display: flex;
     flex-wrap: wrap;
 }
-.card-item {
+/* .card-item {
     cursor: pointer;
-}
+} */
 
 .card-item:not(:nth-child(3n)) {
     margin-right: 30px;
@@ -552,8 +555,12 @@ footer .logo {
     margin-bottom: 30px;
 }
 
-.card-item:hover,
-.card-item:focus {
+.card-item-link {
+    display: block;
+}
+
+.card-item-link:hover,
+.card-item-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
