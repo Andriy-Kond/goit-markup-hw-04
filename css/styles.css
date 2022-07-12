@@ -556,7 +556,9 @@ footer .logo {
 }
 
 .card-item-link {
-    display: block;
+    /* чи требв воно тут?*/
+    /* display: block;  */
+
 }
 
 .card-item-link:hover,
