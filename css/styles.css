@@ -556,8 +556,7 @@ footer .logo {
 }
 
 .card-item-link {
-    /* чи требв воно тут?*/
-    /* display: block;  */
+    display: block; /* без цього не працює ховер */
 
 }
 
